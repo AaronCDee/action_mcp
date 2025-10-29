@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
     Dir['{app,config,db,exe,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
   end
 
-  spec.add_dependency 'activerecord', '>= 8.0.1'
+  spec.add_dependency 'activerecord', '>= 7'
   spec.add_dependency 'concurrent-ruby', '>= 1.3.1'
   spec.add_dependency 'jsonrpc-rails', '>= 0.5.3'
   spec.add_dependency 'multi_json'
